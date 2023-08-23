@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.App{
+    display: flex;
+    background-color: bisque;
+  
+}
+.Sidebar{
+    background-color:darkgray;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    color: bisque;
+    background-color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: dimgrey;
+}
+.ContenedorCuadricula{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.Cuadricula {
+    grid-template-columns: repeat(16, 1fr);
+    background-color: white;
+    width: 500px;
+    height: 500px; 
+    display: grid;
+    border: 2px solid black;
+    margin: 40px;
+    box-shadow: 10px 10px;
+ 
+ 
+}
+.Cuadricula div {
+    border: 1px solid black;
+    background-color: white;
+}
+.ContenedorCuadricula h1 {
+    padding-top: 20px;
+   
+}
+.Cuadricula:hover{
+    background-color: blanchedalmond;
+
+}
+.Cuadricula div {
+    
+    border: 1px solid
+}

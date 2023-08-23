@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>ETCH-A-SKETCH</title>
+</head>
+<body>
+    <div class="App">
+
+        <div class="Sidebar">
+            
+            <button onclick="cambioColor('black')">Black</button>
+            <button  onclick="cambioColor('white')">Erase</button>
+            <button  onclick="cambioColor('gray')"> Gray</button>
+            <button onclick="cambioColor('random')">  Al azar</button>
+            <button id="reinicio">Reiniciar</button>
+            <input type="range" class="myRange" min="2" max="32">
+            <span class="numeros-rango" id="value"></span>
+           
+        </div>
+      
+        <div class="ContenedorCuadricula">
+            <h1>ETCH-A-SKETCH</h1>
+            <div class="Cuadricula" id="Cuadricula">
+                
+               
+               
+            </div>
+        </div>
+    </div>
+    <script src="codigo.js"></script>
+</body>
+</html>
